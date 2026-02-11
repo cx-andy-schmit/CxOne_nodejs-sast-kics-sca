@@ -28,7 +28,7 @@ exports.index = function (req, res, next) {
 
       res.render('index', {
         title: 'Goof TODO',
-        subhead: 'Vulnerabilities at their best',
+        subhead: 'Vulnerabilities at their absolute best best',
         todos: todos,
       });
     });
