@@ -75,7 +75,7 @@ app.use(st({ path: './public', url: '/public' }));
 marked.setOptions({ sanitize: true });
 app.locals.marked = marked;
 
-// development only
+// development only or more
 if (app.get('env') == 'development') {
   app.use(errorHandler());
 }
