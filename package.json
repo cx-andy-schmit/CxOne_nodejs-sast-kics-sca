@@ -15,7 +15,7 @@
     "test": "Cx test"
   },
   "dependencies": {
-    "ejs": "1.0.0",
+    "ejs": "2.5.5",
     "lodash": "4.17.4",
     "mongoose": "4.2.4"
   },
